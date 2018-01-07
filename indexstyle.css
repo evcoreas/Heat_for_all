@@ -1,0 +1,48 @@
+/*HTML Element Styles*/
+body{
+	background: #c2ebff;
+}
+nav{
+	background: #5686a9;
+}
+h1, h2, p{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+p span{
+	text-decoration: underline;
+	font-weight: bold;
+}
+/*Class styles*/
+.wrapper{
+	width: 80%;
+	margin:auto;
+}
+.picture-size1{
+	width: 400px;
+	height: 400px;
+}
+.show-inline{
+	list-style: none;
+}
+.show-inline li{
+	display: inline;
+	width: 50px;
+}
+
+.nav-div{
+	display: inline;
+	width: 30px;
+	height: 20px;
+	margin-top: 20px;
+	/*background: green;*/
+}
+.nav-div a{
+	text-decoration: none;
+}
+.selected-nav{
+	background: #ffffff;
+}
+/*ID Styles*/
+#title{
+	/*font-family: "Trebuchet MS", Helvetica, sans-serif;*/
+}
