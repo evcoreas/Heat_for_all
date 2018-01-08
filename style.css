@@ -115,13 +115,21 @@ p span{
 div h2{
 	border-bottom: 5px solid black;
 }
+.Subheaders{
+	padding: 10px;
+	background-image: url(http://3.bp.blogspot.com/-0cCjN8DouTg/UcCCgH9cm0I/AAAAAAAAABU/8rkgLliziks/s1600/frozentextlessbanner.jpg);
+	background-size: fill;
+	text-align: center;
+	color: white;
+	font-size: 60px;
+	text-shadow: 2px 2px black;
+}
 /*Class styles*/
 /*------
 .wrapper{
 	width: 80%;
 	margin:auto;
 }
-
 .picture-size1{
 	width: 400px;
 	height: 400px;
@@ -133,7 +141,6 @@ div h2{
 	display: inline;
 	width: 50px;
 }
-
 .nav-div{
 	display: inline;
 	width: 30px;
@@ -151,5 +158,3 @@ div h2{
 /*#title{
 	font-family: "Trebuchet MS", Helvetica, sans-serif;*/
 }
-
->>>>>>> master
