@@ -6,14 +6,8 @@
 
 body{
 	font-family: 'Roboto', sans-serif;
-	background: #c2ebff;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> master
-=======
-	
->>>>>>> master
+	background-color: #c2ebff;
+
 }
 
 
@@ -89,12 +83,14 @@ h1 {
   background-size: cover;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 /*------------------------ donate page ---------------------*/
 
 .form-box{
-	align-items: center;
+	padding-top: 20px;
+	display: flex;
+	justify-content: center;
+	align-items:center;
+	text-align: center;
 }
 
 /*---------------------- --------------------------------*/
