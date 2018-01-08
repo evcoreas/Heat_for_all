@@ -6,6 +6,7 @@
 
 body{
 	font-family: 'Roboto', sans-serif;
+	background: #c2ebff;
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -18,7 +19,8 @@ body{
 
 /*---------------------- Nav Bar --------------------------------*/
 nav {
-	background-color:#8BA7FEFF;
+	background-color:#5686a9;
+	/*--#8BA7FEFF;-----*/
 }
 
 ul {
@@ -43,7 +45,7 @@ li a {
 
 li a:hover {
 	background-color: #FFFFFF;
-	color: #8BA7FEFF;
+	color: #5686a9;
 }
 
 #right-side {
@@ -91,19 +93,14 @@ h1 {
 <<<<<<< HEAD
 /*------------------------ donate page ---------------------*/
 
-
-
-=======
->>>>>>> master
-=======
+.form-box{
+	align-items: center;
+}
 
 /*---------------------- --------------------------------*/
 
 
 /*HTML Element Styles*/
-body{
-	background: #c2ebff;
-}
 nav{
 	background: #5686a9;
 }
