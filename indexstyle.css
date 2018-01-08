@@ -5,12 +5,20 @@ body{
 nav{
 	background: #5686a9;
 }
-h1, h2, p{
+nav button{
+	background: #5686a9;
+	border: none;
+
+}
+h1, h2,h3,h4, p{
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 p span{
 	text-decoration: underline;
 	font-weight: bold;
+}
+div h2{
+	border-bottom: 5px solid black;
 }
 /*Class styles*/
 .wrapper{
