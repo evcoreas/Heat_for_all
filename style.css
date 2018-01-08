@@ -1,3 +1,80 @@
-body{
-	background-color: 
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400');
+
+*{
+	box-sizing: border-box;
 }
+
+body{
+	font-family: 'Roboto', sans-serif;
+    background-color: linear-gradient(to bottom right, blue, white);
+}
+
+
+/*---------------------- Nav Bar --------------------------------*/
+nav {
+	background-color:#8BA7FEFF;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding:0;
+	overflow: hidden;	
+}
+
+li {
+	display: inline;
+	float: left;
+}
+
+li a {
+	display: block;
+	color: #FFFFFF;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: #FFFFFF;
+	color: #8BA7FEFF;
+}
+
+#right-side {
+	float: right;
+}
+
+/*---------------------- Home page --------------------------------*/
+
+h1 {
+	text-align: center;
+}
+
+.container-1{
+  display: flex;
+  justify-content: space-between;
+  background-color: #709EF0;
+  height:500px;
+}
+
+.row1{
+  display: flex;
+}
+
+.text-box1{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  padding: 45px;
+  
+}
+
+.image1{
+  width:50%;
+  background-image: url(images/home_pic.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
