@@ -1,3 +1,160 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400');
+
+*{
+	box-sizing: border-box;
+}
+
 body{
-	background-color: 
+	font-family: 'Roboto', sans-serif;
+	background-color: #c2ebff;
+
+}
+
+
+/*---------------------- Nav Bar --------------------------------*/
+nav {
+	background-color:#5686a9;
+	/*--#8BA7FEFF;-----*/
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding:0;
+	overflow: hidden;	
+}
+
+li {
+	display: inline;
+	float: left;
+}
+
+li a {
+	display: block;
+	color: #FFFFFF;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: #FFFFFF;
+	color: #5686a9;
+}
+
+#right-side {
+	float: right;
+}
+
+/*---------------------- Home page --------------------------------*/
+
+h1 {
+	text-align: center;
+	font-weight: 300;
+}
+
+.container-1{
+  display: flex;
+  justify-content: space-between;
+  background-color: #5686a9;
+  height:500px;
+}
+
+.row1{
+  display: flex;
+}
+
+.text-box1{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  padding: 40px;
+  font-size: 25px;
+  font-weight: 300;
+  
+}
+
+.image1{
+  width:50%;
+  background-image: url(images/home_pic.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+/*------------------------ donate page ---------------------*/
+
+.form-box{
+	padding-top: 20px;
+	display: flex;
+	justify-content: center;
+	align-items:center;
+	text-align: center;
+}
+
+/*---------------------- --------------------------------*/
+
+
+/*HTML Element Styles*/
+nav{
+	background: #5686a9;
+}
+nav button{
+	background: #5686a9;
+	border: none;
+
+}
+h1, h2,h3,h4, p{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+p span{
+	text-decoration: underline;
+	font-weight: bold;
+}
+div h2{
+	border-bottom: 5px solid black;
+}
+.Subheaders{
+	padding: 10px;
+	background-image: url(http://3.bp.blogspot.com/-0cCjN8DouTg/UcCCgH9cm0I/AAAAAAAAABU/8rkgLliziks/s1600/frozentextlessbanner.jpg);
+	background-size: fill;
+	text-align: center;
+	color: white;
+	font-size: 60px;
+	text-shadow: 2px 2px black;
+}
+/*Class styles*/
+/*------
+.wrapper{
+	width: 80%;
+	margin:auto;
+}
+.picture-size1{
+	width: 400px;
+	height: 400px;
+}
+.show-inline{
+	list-style: none;
+}
+.show-inline li{
+	display: inline;
+	width: 50px;
+}
+.nav-div{
+	display: inline;
+	width: 30px;
+	height: 20px;
+	margin-top: 20px;
+	/*background: green;
+}
+.nav-div a{
+	text-decoration: none;
+}
+.selected-nav{
+	background: #ffffff;
+} -----------*/
+/*ID Styles*/
+/*#title{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;*/
 }
