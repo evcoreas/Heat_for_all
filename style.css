@@ -7,12 +7,14 @@
 body{
 	font-family: 'Roboto', sans-serif;
 	background-color: #c2ebff;
+
 }
 
 
 /*---------------------- Nav Bar --------------------------------*/
 nav {
 	background-color:#5686a9;
+	/*--#8BA7FEFF;-----*/
 }
 
 ul {
@@ -37,8 +39,7 @@ li a {
 
 li a:hover {
 	background-color: #FFFFFF;
-	color: #c2ebff;
-
+	color: #5686a9;
 }
 
 #right-side {
@@ -82,20 +83,40 @@ h1 {
   background-size: cover;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 /*------------------------ donate page ---------------------*/
 
+.form-box{
+	padding-top: 20px;
+	display: flex;
+	justify-content: center;
+	align-items:center;
+	text-align: center;
+}
+
+/*---------------------- Footer --------------------------------*/
+.footer{
+	background-color: #5686a9;
+	height: 60px;
+}
+
+.box-footer {
+	padding: 20px;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+
+.footer-text {
+	text-decoration:none;
+	color: #FFFFFF;
+}
+
+.footer-text:hover {
+	color: #c2ebff;
+}
 
 
-=======
->>>>>>> master
-=======
-
-/*---------------------- --------------------------------*/
-
-
-/*HTML Element Styles*/
+/*-------------------HTML Element Styles------------------------*/
 nav{
 	background: #5686a9;
 }
