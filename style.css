@@ -6,19 +6,13 @@
 
 body{
 	font-family: 'Roboto', sans-serif;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> master
-=======
-	
->>>>>>> master
+	background-color: #c2ebff;
 }
 
 
 /*---------------------- Nav Bar --------------------------------*/
 nav {
-	background-color:#8BA7FEFF;
+	background-color:#5686a9;
 }
 
 ul {
@@ -43,7 +37,8 @@ li a {
 
 li a:hover {
 	background-color: #FFFFFF;
-	color: #8BA7FEFF;
+	color: #c2ebff;
+
 }
 
 #right-side {
@@ -101,9 +96,6 @@ h1 {
 
 
 /*HTML Element Styles*/
-body{
-	background: #c2ebff;
-}
 nav{
 	background: #5686a9;
 }
