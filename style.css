@@ -93,10 +93,30 @@ h1 {
 	text-align: center;
 }
 
-/*---------------------- --------------------------------*/
+/*---------------------- Footer --------------------------------*/
+.footer{
+	background-color: #5686a9;
+	height: 60px;
+}
+
+.box-footer {
+	padding: 20px;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+
+.footer-text {
+	text-decoration:none;
+	color: #FFFFFF;
+}
+
+.footer-text:hover {
+	color: #c2ebff;
+}
 
 
-/*HTML Element Styles*/
+/*-------------------HTML Element Styles------------------------*/
 nav{
 	background: #5686a9;
 }
